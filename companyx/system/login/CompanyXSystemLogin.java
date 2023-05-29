@@ -53,7 +53,7 @@ public class CompanyXSystemLogin extends Application {
                 String  username = username_tf.getText();
                 String password = password_tf.getText();}
         } ));
-                //Event for for Button Register
+              //Event Handler for the Register_button 
         register_btn.setOnMouseClicked((new EventHandler<MouseEvent>(){
             public void handle(MouseEvent event){
                 String  username = username_tf.getText();
